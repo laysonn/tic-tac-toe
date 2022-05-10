@@ -1,0 +1,178 @@
+body {background-color: #F8F9FA;}
+
+.alert {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-rowx {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #000;
+}
+
+.logo h3 {
+    color: #e74c3c;
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height:1.3;
+}
+.logo h3 span {
+    color: #e74c3c;
+    display: inline-block;
+    line-height: 1.8;
+    padding: 0px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity:0.5;
+    margin-left:-34px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-card-text {
+    margin-right: 10px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 15px;
+  }
+
+.alert-main  {
+    width: 500px;
+    height: 70px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.alert-text {
+    padding-top: 14px;
+    text-align: center;
+}
+
+.container {
+    padding-top: 50px;
+    width: 100%;
+}
+
+#area {
+    width: 255px;
+    font-size: 0;
+}
+
+.my-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    font-size: 45px;
+    border: 2px solid #ACF4E6;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+    color: #324355;
+}
+
+.cell-o {
+    color: #18BC9C;
+}
+
+.cell:hover {
+    background-color: #F1F1F1;
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.login-main {
+    align-items: center;
+    margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in {
+    align-items: center;
+    margin-top: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-main input {
+    width: 500px;
+}
+
+
+.active {
+  display: flex;
+}
+
+.log-active {
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #area {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .container {
+        padding-bottom: 100px;
+    }
+}

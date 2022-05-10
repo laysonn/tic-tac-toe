@@ -1,0 +1,113 @@
+body {background-color: #F8F9FA;}
+
+.alert {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.index-main {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+}
+
+.index-image {
+    width: 250px;
+}
+
+.alert-main  {
+    width: 500px;
+    height: 70px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.alert-text {
+    padding-top: 14px;
+    text-align: center;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+#area {
+    width: 255px;
+    font-size: 0;
+}
+
+.my-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    font-size: 45px;
+    border: 2px solid #ACF4E6;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+    color: #324355;
+}
+
+.cell-o {
+    color: #18BC9C;
+}
+
+.cell:hover {
+    background-color: #F1F1F1;
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #area {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .container {
+        padding-bottom: 100px;
+    }
+}
